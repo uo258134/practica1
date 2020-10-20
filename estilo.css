@@ -1,0 +1,148 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin:5px;
+}
+/*COMPONENTES DE ESTRUCTURA*/
+/*1*/
+body{
+    background-color: green;
+}
+/*1*/
+header{
+    background-color: palegreen;
+    top: 0;   
+    padding: 5px;
+}
+/*1*/
+nav{
+    background-color: paleturquoise;
+    font-size: 30px;
+}
+/*1*/
+main{
+    background-color: peru;
+    color: black;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+/*1*/
+aside{
+    background-color:greenyellow;
+    font-size: 28px;
+    color: black;
+}
+/*1*/
+footer{
+    background-color: lightgreen;
+    font-size: 22px;
+    color: white;
+    bottom: 0;
+    
+}
+/*LAYOUT*/
+/*10*/
+.row {
+    display: table;
+    background-color: paleturquoise;
+    padding: 10px;
+}
+/*10*/
+.column {
+    display: table-cell;
+    text-align: center;
+    padding: 8px;
+    border: 5px solid paleturquoise;
+    background-color: lightseagreen;
+}
+
+
+/*HEADERS*/
+/*1*/
+h1{
+    color:black; 
+    text-align: center;
+    font-size: 50px;
+}
+/*1*/
+h2{
+    text-decoration: underline;    
+}
+/*1*/
+h3{
+    padding-left: 10px;
+}
+/*1*/
+h4{
+    font-weight: bolder;
+    text-decoration: underline;
+}    
+
+/*PARAGRAPH AND SECTIONS*/
+/*1*/
+p{
+    text-align: justify;
+    font-size:24px;
+}
+/*1*/
+section{
+    color:lightgreen;
+    font-size: 26px;
+}
+/**/
+div{
+    color:paleturquoise;
+}
+
+/*LIST AND TABLES*/
+/*2*/
+section>ul{
+    list-style-type: square;
+    font-family: 'Franklin Gothic Medium';
+}
+/*1*/
+table{
+    background-color: brown;
+    border-collapse: collapse;
+    font-weight: lighter;
+    border: 2px solid black;
+    padding: 5px;
+    color: white;
+}
+/*1*/   /*1*/
+th,tr{
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+/*12*/
+tr:hover > td{
+    background-color: blue;
+    color:white;
+}
+
+/*LINKS AND HYPERLINKS*/
+/*1*/
+a{
+    font-family:  Helvetica, sans-serif;
+}
+/*11*/   /*11*/
+a:hover, a:active {
+    background-color: paleturquoise;
+    text-decoration: underline;
+}
+/*10*/
+.hyper{
+    color:black;
+}
+/*MULTIMEDIA*/
+/*1*/
+img{
+    border: 3px solid lightgray;    
+}
+
+
+
+
+
