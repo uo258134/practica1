@@ -1,6 +1,6 @@
 *{
     font-family: Helvetica, sans-serif;
-    margin:5px;
+    margin:3px;
 }
 /*COMPONENTES DE ESTRUCTURA*/
 /*1*/
@@ -96,8 +96,8 @@ div{
 }
 
 /*LIST AND TABLES*/
-/*2*/
-section>ul{
+/*1*/
+ul{
     list-style-type: square;
     font-family: 'Franklin Gothic Medium';
 }
